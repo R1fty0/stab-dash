@@ -1,0 +1,16 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1754023544
+::res://addons/::1753843413
+::res://addons/brackeys-proto-controller-main/::1753843413
+README.md::TextFile/TextFile::-1::1753843413::0::1::::<><><>0<>0<><>::
+::res://addons/brackeys-proto-controller-main/proto_controller/::1753843509
+proto_controller.gd::GDScript/GDScript::1266627455162230056::1753843413::0::1::::<>CharacterBody3D<><>0<>0<><>::
+proto_controller.tscn::PackedScene/PackedScene::3717544648773412845::1753843491::0::1::::<><><>0<>0<><>::uid://sbtf0rqokcqq::::res://addons/brackeys-proto-controller-main/proto_controller/proto_controller.gd
+::res://assets/::1753832024
+::res://autoloads/::1753832009
+::res://scenes/::1754023537
+main.gd::GDScript/GDScript::7069199198854601071::1754023384::0::1::::<>Node<><>0<>0<><>::
+main.tscn::PackedScene::3489142643109462460::1754023537::0::1::::<><><>0<>0<><>::uid://c7ymxb0obavw6::::res://scenes/main.gd
+::res://scenes/player/::1754023537
+player.gd::GDScript/GDScript::1878794131159712536::1753843593::0::1::::<>CharacterBody3D<><>0<>0<><>::
+player.tscn::PackedScene::2663406759864606538::1754023537::0::1::::<><><>0<>0<><>::uid://11dp2mjbccro::::res://scenes/player/player.gd
