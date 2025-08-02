@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://b2kr1qfmp2rvo"]
+
+[ext_resource type="Script" uid="uid://cpiajhw84a81k" path="res://scenes/player/components/dash_component.gd" id="1_uegoc"]
+
+[node name="DashComponent" type="Node3D" node_paths=PackedStringArray("player")]
+script = ExtResource("1_uegoc")
+player = NodePath("")
+
+[node name="RayCast3D" type="RayCast3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 1.63587, 0)
+target_position = Vector3(0, -1000, 0)

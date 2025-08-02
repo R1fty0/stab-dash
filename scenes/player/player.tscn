@@ -1,12 +1,11 @@
 [gd_scene load_steps=4 format=3 uid="uid://bd7f6j015x467"]
 
 [ext_resource type="Script" uid="uid://11dp2mjbccro" path="res://scenes/player/player.gd" id="1_8afob"]
+[ext_resource type="PackedScene" uid="uid://b2kr1qfmp2rvo" path="res://scenes/player/components/dash_component.tscn" id="2_dovo2"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_iof21"]
 radius = 0.4
 height = 1.8
-
-[sub_resource type="BoxMesh" id="BoxMesh_8afob"]
 
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1_8afob")
@@ -20,6 +19,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7, 0)
 
 [node name="Camera3D" type="Camera3D" parent="Head"]
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.39594, -5.90815)
-mesh = SubResource("BoxMesh_8afob")
+[node name="DashComponent" parent="Head/Camera3D" node_paths=PackedStringArray("player") instance=ExtResource("2_dovo2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.7, 0)
+player = NodePath("../../..")

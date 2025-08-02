@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://bkg4id0qo2aw8"]
+
+[ext_resource type="Texture2D" uid="uid://rxytob8gkqy1" path="res://assets/art/enemies/enemy.png" id="1_6xk8f"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6xk8f"]
+size = Vector3(9.34766, 10.1865, 1.46765)
+
+[node name="Enemy" type="CharacterBody3D" groups=["dash_target"]]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0878906, 0.14296, 0.233826)
+shape = SubResource("BoxShape3D_6xk8f")
+debug_color = Color(0.925181, 4.17775e-05, 0.677212, 0.42)
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+pixel_size = 1.0
+billboard = 2
+double_sided = false
+texture_filter = 0
+texture = ExtResource("1_6xk8f")

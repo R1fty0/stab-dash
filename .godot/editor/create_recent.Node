@@ -1,3 +1,11 @@
-Camera2D
-MeshInstance3D
+TextureRect
+CanvasLayer
 Node
+Node3D
+RayCast3D
+MeshInstance3D
+Sprite3D
+CollisionShape3D
+CharacterBody3D
+CSGBox3D
+Camera2D
